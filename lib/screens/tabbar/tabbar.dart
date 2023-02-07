@@ -35,9 +35,9 @@ class _FRTabbarScreenState extends State<FRTabbarScreen> {
 
   final screens = [
     const HomeScreen(
-      title: '首页0',
+      title: 'Penis',
     ),
-    const TestScreen(title: 'Cart'),
+    const TestScreen(title: 'PEnis'),
     const TestScreen(title: 'Orders'),
     const TestScreen(title: 'Wallet'),
     const ProfileScreen(),
@@ -53,28 +53,18 @@ class _FRTabbarScreenState extends State<FRTabbarScreen> {
 
   final List<BottomNavigationBarItem> items = [
     BottomNavigationBarItem(
+      icon: generateIcon('light/Bag@2x.png'),
+      activeIcon: generateIcon('bold/Bag@2x.png'),
+      label: 'Cart'
+    ),
+    BottomNavigationBarItem(
       icon: generateIcon('light/Home@2x.png'),
       activeIcon: generateIcon('bold/Home@2x.png'),
       label: 'Home',
     ),
     BottomNavigationBarItem(
-      icon: generateIcon('light/Bag@2x.png'),
-      activeIcon: generateIcon('bold/Bag@2x.png'),
-      label: 'Cart',
-    ),
-    BottomNavigationBarItem(
-      icon: generateIcon('light/Buy@2x.png'),
-      activeIcon: generateIcon('bold/Buy@2x.png'),
-      label: 'Orders',
-    ),
-    BottomNavigationBarItem(
       icon: generateIcon('light/Wallet@2x.png'),
-      activeIcon: generateIcon('bold/Wallet@2x.png'),
-      label: 'Wallet',
-    ),
-    BottomNavigationBarItem(
-      icon: generateIcon('light/Profile@2x.png'),
-      activeIcon: generateIcon('bold/Profile@2x.png'),
+      activeIcon: generateIcon('bold/heart@2x.png'),
       label: 'Profile',
     ),
   ];
