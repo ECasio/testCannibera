@@ -45,7 +45,7 @@ class _FRTabbarScreenState extends State<FRTabbarScreen> {
 
   static Image generateIcon(String path) {
     return Image.asset(
-      '${ImageLoader.rootPaht}/tabbar/$path',
+      '${ImageLoader.rootPath}/tabbar/$path',
       width: 24,
       height: 24,
     );
